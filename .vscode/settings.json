@@ -1,14 +1,14 @@
 {
 	"files.exclude": {
-		"**/.git": false,
-		"**/.svn": false,
-		"**/.hg": false,
-		"**/.DS_Store": false,
-		"**/Thumbs.db": false,
-		"public": false,
-		"**/node_modules": false,
-		"**/src/index.css": false,
-		"**/src/react-app-env.d.ts": false
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"public": true,
+		"**/node_modules": true,
+		"**/src/index.css": true,
+		"**/src/react-app-env.d.ts": true
 	},
 	"liveSassCompile.settings.formats": [
 		{

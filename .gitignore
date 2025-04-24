@@ -27,6 +27,3 @@ yarn-error.log*
 
 # api
 api/node_modules
-
-# package
-alphatech-mailer
