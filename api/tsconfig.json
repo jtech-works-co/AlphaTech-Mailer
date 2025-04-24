@@ -9,7 +9,7 @@
 		"rootDir": "./_src/",
 		"outDir": "./",
 		"verbatimModuleSyntax": true,
-		"moduleResolution": "nodenext"
+		"moduleResolution": "nodenext",
 	},
 	"include": [
 		"_src/**/*"
