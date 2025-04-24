@@ -1,0 +1,13 @@
+@import '../variable';
+
+.documentation {
+	padding: 1rem;
+	
+	section {
+		padding: 1rem;
+		border-radius: 12px;
+		box-shadow: 0 0 5px gray;
+		display: flex;
+		flex-direction: column;
+	}
+}

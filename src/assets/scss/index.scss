@@ -1,0 +1,77 @@
+@import './variable';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $background;
+	color: $text-color;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+#root {
+	width: 100%;
+	min-height: 100svh;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: $text-color;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&.active {
+		color: $primary-color;
+	}
+}
+
+button {
+	height: 48px;
+	outline: none;
+	border: 0;
+}
+
+.actions-container {
+	gap: 1rem;
+	flex-wrap: wrap;
+
+	button {
+		max-width: 300px;
+		flex: 1;
+		height: 48px;
+
+		&.primary {
+			background-color: $primary-color;
+		}
+
+		&.secondary {
+			border: 2px solid $primary-color;
+			background-color: transparent;
+			color: $primary-color;
+		}
+	}
+}
+
+@import './components/CodePreview';
+
+@import './pages/App';
+@import './pages/Documentation';
+@import './pages/Home';
+@import './pages/Landing';
+
+@import './features/Auth';

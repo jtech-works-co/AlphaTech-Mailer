@@ -1,0 +1,22 @@
+.code-preview {
+	position: relative;
+	background-color: black;
+	box-shadow: 0 0 5px gray;
+	color: white;
+	border-radius: 12px;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+
+	code {
+		padding: 0 2rem;
+	}
+
+	.copy {
+		position: absolute;
+		width: 40px;
+		aspect-ratio: 1/1;
+		top: 10px;
+		right: 10px;
+	}
+}
