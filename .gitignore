@@ -24,6 +24,5 @@ yarn-error.log*
 
 .vercel
 
-
 # api
 api/node_modules
